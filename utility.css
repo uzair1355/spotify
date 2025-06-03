@@ -6,12 +6,15 @@
 
 .border {
     margin: 3px;
-     border: 2px solid red;
+    border: 2px solid red;
 
 }
 
 .f-1 {
-    font-weight: 400;
+    
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -28,7 +31,7 @@
     font-weight: 500;
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-size: 11px;
+
 
 }
 
@@ -66,6 +69,12 @@
 
 }
 
+.grid {
+
+    display: grid;
+    grid-template-columns: ;
+}
+
 .rounded {
     border-radius: 7px;
 }
@@ -73,4 +82,18 @@
 .p-1 {
 
     padding: 10px;
+}
+/* For WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;  /* Dark thumb color */
+  border-radius: 6px;
+  border: 3px solid #1e1e1e; /* Space around thumb */
 }
